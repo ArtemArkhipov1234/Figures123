@@ -3,12 +3,6 @@ pass
 
 import turtle
 
-turtle.forward(100)
-turtle.left(90)
-turtle.forward(100)
-turtle.left(90)
-turtle.forward(100)
-turtle.left(90)
-turtle.forward(100)
-turtle.left(90)
 
+def square(x, y, size, colour, angle):  # TODO:(Рома)
+    pass
