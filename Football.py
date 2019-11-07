@@ -16,7 +16,14 @@ border.goto(-300,300)
 border.goto(300,300)
 
 ball = turtle.Turtle()
+ball.hideturtle()
 ball.shape('circle')
 ball.up()
+randx = random.randint(-290,290)
+randy = random.randint(-290,290)
+ball.goto(randx,randy)
+ball.showturtle()
 dx = 3
 dy = 4
+while True:
+
