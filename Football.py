@@ -2,7 +2,7 @@
 import turtle, random
 
 window = turtle.Screen()
-border = turtle.Turtle
+border = turtle.Turtle()
 border.speed(0)
 border.up()
 border.hideturtle()
@@ -26,4 +26,11 @@ ball.showturtle()
 dx = 3
 dy = 4
 while True:
+    x,y = ball.position()
+    if x+dx>=300 or x+dx <= -300:
+        dx = -dx
+    if y+dy>=300 or y+dy <= -300:
+        dy = -dy
+    ball.goto(x+dx,y+dy)
+
 
