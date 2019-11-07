@@ -1,6 +1,6 @@
 import turtle
 
-
+turtle.begin_fill()
 turtle.forward(200)
 turtle.left(90)
 turtle.forward(100)
@@ -37,4 +37,9 @@ turtle.right(120)
 turtle.forward(100)
 turtle.right(120)
 turtle.forward(100)
-turtle.mainloop()f
+
+turtle.end_fill()
+
+turtle.mainloop()
+
+
