@@ -1,5 +1,7 @@
 import turtle
 
+turtle.speed(10)
+
 turtle.begin_fill()
 turtle.forward(200)
 turtle.left(90)
