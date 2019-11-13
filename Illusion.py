@@ -1,6 +1,5 @@
 import turtle
 
-
 bgcolor("gray")
 
 pu()
