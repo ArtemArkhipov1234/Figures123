@@ -1,14 +1,27 @@
+import turtle
+
+screen = turtle.Screen()
+
+screen.addshape(800,800)
+
+
+
 def Fish():
     # TODO: ArtemArkhipov1234
 pass
 
-def Football():
+def Flower():
     # TODO: romanbrenner
 pass
+
 
 def Helicopter():
     # TODO: ArtemArkhipov1234
 pass
 
-def
-    
+
+def main.py():
+    # TODO: romanbrenner
+pass
+
+
