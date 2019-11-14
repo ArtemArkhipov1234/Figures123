@@ -61,7 +61,6 @@ def fish(x, y, size, color, angle):
     turtle.forward(100)
     turtle.end_fill()
 
-
 fish(-10, -200, "red",0 , 0)
 
 
@@ -147,7 +146,6 @@ def Parallel(x, y, size, angle):
     turtle.left(angle)
     turtle.forward(size)
     turtle.left(angle)
-
 
 Parallel(-300, 200, 50, 90)
 
@@ -274,7 +272,6 @@ def Helicopter(x, y):
     turtle.forward(100)
     turtle.right(180)
     turtle.forward(50)
-
 
 Helicopter(-500, -300)
 
