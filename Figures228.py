@@ -1,4 +1,5 @@
 import turtle
+import math
 
 screen = turtle.Screen()
 screen.addshape(900, 800)
@@ -276,6 +277,31 @@ def Helicopter(x, y):
 
 
 Helicopter(-500, -300)
+
+
+from turtle import Turtle, Screen
+
+def Flower(turtle, radius):
+    heading = turtle.heading()
+    turtle.circle(radius, 60)
+    turtle.left(120)
+    turtle.circle(radius, 60)
+    turtle.setheading(heading)
+
+my_radius = int(100)
+my_petals = int(10)
+
+turtle = Turtle()
+
+for _ in range(10):
+    Flower(turtle, 100)
+    turtle.left(360 / 10)
+
+turtle.hideturtle()
+
+screen = Screen()
+screen.exitonclick()
+
 
 
 
