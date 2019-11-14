@@ -7,19 +7,19 @@ screen.addshape(900, 800)
 
 def square(x, y, size, color, angle):
     turtle.penup()
-    turtle.goto(x, y)
+    turtle.goto(x, y)  # черепашку на координаты
     turtle.pendown()
-    turtle.begin_fill()
-    turtle.color(color)
-    turtle.right(angle)
-    turtle.forward(size)
-    turtle.right(90)
-    turtle.forward(size)
-    turtle.right(90)
-    turtle.forward(size)
-    turtle.right(90)
-    turtle.forward(size)
-    turtle.end_fill()
+    turtle.begin_fill()  # начать заполнять цветом
+    turtle.color(color)  # выбор цвета
+    turtle.right(angle)  # угол, под которым рисовать квадрат(первый)
+    turtle.forward(size)  # первая сторона, её длина
+    turtle.right(90)  # второй угол квадрата
+    turtle.forward(size)  # вторая сторона, её длина
+    turtle.right(90)  # третий угол квадрата
+    turtle.forward(size)  # третья сторона, её длина
+    turtle.right(90)  # четвёртый угол квадрата
+    turtle.forward(size)  # чертвёртая сторона, её длина
+    turtle.end_fill()  # закончить заполнение цветом
 
     # TODO: romanbrenner, ArtemArkhipov1234
     pass
@@ -27,17 +27,17 @@ def square(x, y, size, color, angle):
 
 def triangle(x, y, size, color, angle):
     turtle.penup()
-    turtle.goto(x, y)
+    turtle.goto(x, y)  # черепашку на координаты х и у
     turtle.pendown()
-    turtle.begin_fill()
-    turtle.color(color)
-    turtle.right(angle)
-    turtle.right(30)
-    turtle.forward(size)
-    turtle.right(120)
-    turtle.forward(size)
-    turtle.right(30)
-    turtle.end_fill()
+    turtle.begin_fill()  # начать заполнять цветом
+    turtle.color(color)  # выбор цвета
+    turtle.right(angle)  # угол, под которым будет рисоваться треугольник
+    turtle.right(30)  # поворот черепашки(1 угол треугольника)
+    turtle.forward(size)  # первая сторона треугольника
+    turtle.right(120)  # второй угол треугольника
+    turtle.forward(size)  # вторая сторона треугольника
+    turtle.right(30)  # третий угол треугольника
+    turtle.end_fill()  # закончить заполнение цветом + авто-дорисовка треугольника
 
     # TODO: romanbrenner, ArtemArkhipov1234
     pass
