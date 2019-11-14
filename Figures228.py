@@ -1,6 +1,10 @@
 import turtle
 
 
+
+
+
+
 def square(x, y, size, color, angle):
     turtle.penup()
     turtle.goto(x, y)
