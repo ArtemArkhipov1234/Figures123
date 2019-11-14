@@ -277,7 +277,7 @@ def Helicopter(x, y):
     turtle.forward(50)
 
 
-Helicopter(-300, -200)
+Helicopter(0, 200)
 
 
 
