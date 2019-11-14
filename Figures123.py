@@ -2,7 +2,7 @@ import turtle
 
 screen = turtle.Screen()
 
-screen.addshape(800,800)
+screen.addshape(900,800)
 
 
 
