@@ -306,6 +306,3 @@ screen.exitonclick()
 
 
 
-
-
-
