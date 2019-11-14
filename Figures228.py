@@ -53,3 +53,5 @@ def circle(size, color)
     turtle.penup()
     turtle.home()
     # TODO: romanbrenner, ArtemArkhipov1234
+    pass
+
