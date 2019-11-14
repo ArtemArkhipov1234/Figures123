@@ -16,8 +16,7 @@ def square(x, y, size, color, angle):
     turtle.right(90)
     turtle.forward(size)
     turtle.end_fill()
-    turtle.penup()
-    turtle.home()
+
     # TODO: romanbrenner, ArtemArkhipov1234
     pass
 
@@ -28,17 +27,20 @@ def triangle(x, y, size, color, angle):
     turtle.pendown()
     turtle.begin_fill()
     turtle.color(color)
+    turtle.right(angle)
     turtle.right(30)
     turtle.forward(size)
     turtle.right(120)
     turtle.forward(size)
     turtle.right(30)
     turtle.end_fill()
-    turtle.penup()
-    turtle.home()
+
     # TODO: romanbrenner, ArtemArkhipov1234
     pass
 
+
+
+turtle.speed(5)
 
 def fish(x, y, size, color, angle):
     square(x, y, 100, "yellow", 0)
@@ -60,6 +62,7 @@ def fish(x, y, size, color, angle):
 fish(-10, -200, "red",0 , 0)
 
 turtle.mainloop()
+
 
 
 
