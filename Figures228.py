@@ -1,7 +1,6 @@
 import turtle
 
 screen = turtle.Screen()
-
 screen.addshape(900, 800)
 
 
@@ -41,7 +40,6 @@ def triangle(x, y, size, color, angle):
 
     # TODO: romanbrenner, ArtemArkhipov1234
     pass
-
 
 
 turtle.speed(5)
@@ -151,6 +149,9 @@ def Parallel(x, y, size, angle):
 
 
 Parallel(-300, 200, 50, 90)
+
+
+
 
 
 
