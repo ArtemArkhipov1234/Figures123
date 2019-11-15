@@ -63,6 +63,8 @@ def fish(x, y, size, color, angle):
 
 fish(-10, -200, "red",0 , 0)
 
+# TODO: ArtemArkhipov1234
+pass
 
 def Parallel(x, y, size, angle):
     turtle.reset()
@@ -149,6 +151,8 @@ def Parallel(x, y, size, angle):
 
 Parallel(-300, 200, 50, 90)
 
+# TODO: romanbrenner
+pass
 
 def Helicopter(x, y):
 
@@ -273,7 +277,10 @@ def Helicopter(x, y):
     turtle.right(180)
     turtle.forward(50)
 
-Helicopter(-500, -300)
+Helicopter(-300, -200)
+
+# TODO: ArtemArkhipov1234
+pass
 
 
 from turtle import Turtle, Screen
@@ -299,7 +306,8 @@ turtle.hideturtle()
 screen = Screen()
 screen.exitonclick()
 
-
+# TODO: romanbrenner
+pass
 
 
 
