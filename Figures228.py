@@ -21,7 +21,7 @@ def square(x, y, size, color, angle):
     turtle.forward(size)  # чертвёртая сторона, её длина
     turtle.end_fill()  # закончить заполнение цветом
 
-    # TODO: romanbrenner, ArtemArkhipov1234
+    # TODO: romanbrenner, ArtemArkhipov1234, MaximPlotnikovinfa
     pass
 
 
@@ -39,7 +39,7 @@ def triangle(x, y, size, color, angle):
     turtle.right(30)  # третий угол треугольника
     turtle.end_fill()  # закончить заполнение цветом + авто-дорисовка треугольника
 
-    # TODO: romanbrenner, ArtemArkhipov1234
+    # TODO: romanbrenner, ArtemArkhipov1234, MaximPlotnikovinfa
     pass
 
 
