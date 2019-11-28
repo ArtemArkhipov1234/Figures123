@@ -39,9 +39,11 @@ def triangle(x, y, size, color, angle):
 def rhombus(x, y, size, color, angle):
     square(x, y, 50, "blue", 0)
     triangle(x + 50, y, 50, "red", 90)
-    triangle(x - 50, y, 50, "red", 90)
-    triangle(x, y - 50, 50, "red", 90)
-    triangle(x, y + 50, 50, "red", 90)
+    triangle(x - 44, y - 25, 50, "red", 120)
+    triangle(x + 50, y - 50, 50, "red", 330)
+    triangle(x + 24, y + 44, 50, "red", 120)
+
+rhombus(0, 0, 100, "red", 0)
 
 
-
+turtle.mainloop()
