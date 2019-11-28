@@ -42,6 +42,27 @@ def rhombus(x, y, size, color, angle):
     triangle(x - 50, y, 50, "red", 90)
     triangle(x, y - 50, 50, "red", 90)
     triangle(x, y + 50, 50, "red", 90)
+rhombus(500, 400, 100, "red", 0)
+
+
+def house(x, y, size, color, angle):
+    square(x, y, 100, "green", 0)
+    triangle(x, y, 100, "red", 0)
+    turtle.penup()
+    turtle.right(180)
+    turtle.pendown()
+    turtle.begin_fill()
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(10)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.end_fill()
+    square(x + 60, y - 40, 30, "black", 0)
+    square(x + 44, y - 50, 10, "yellow", 0)
+
+
+house(100, 200, 100, "red", 0)
 
 
 
