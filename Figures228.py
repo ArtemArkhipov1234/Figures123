@@ -43,7 +43,7 @@ def triangle(x, y, size, color, angle):
     pass
 
 
-turtle.speed(5)
+turtle.speed(10)
 
 def fish(x, y, size, color, angle):
     square(x, y, 100, "yellow", 0)
@@ -64,12 +64,14 @@ def fish(x, y, size, color, angle):
 fish(-10, -200, "red",0 , 0)
 
 
+turtle.speed(10)
+
 def Parallel(x, y, size, angle):
     turtle.reset()
     turtle.up()
     turtle.goto(x, y)
     turtle.down()
-
+    turtle.speed(10)
     turtle.left(20)
 
     turtle.forward(size)
@@ -151,13 +153,11 @@ Parallel(-300, 200, 50, 90)
 
 
 def Helicopter(x, y):
-
-    turtle.speed(10)
-
     turtle.reset()
     turtle.up()
     turtle.goto(x, y)
     turtle.down()
+    turtle.speed(10)
     turtle.begin_fill()
     turtle.forward(50)
     turtle.left(180)
@@ -296,9 +296,6 @@ for _ in range(10):
 
 turtle.hideturtle()
 
-screen = Screen()
-screen.exitonclick()
-
 
 def house(x, y, size, color, angle):
     square(x, y, 100, "green", 0)
@@ -317,16 +314,24 @@ def house(x, y, size, color, angle):
     square(x + 44, y - 50, 10, "yellow", 0)
 
 
-house(100, 200, 100, "red", 0)
+house(500, -200, 100, "red", 0)
 
-
+turtle.penup()
+turtle.goto(0, 0)
+turtle.pendown()
 def rhombus(x, y, size, color, angle):
     square(x, y, 50, "blue", 0)
-    triangle(x + 50, y, 50, "red", 90)
-    triangle(x - 50, y, 50, "red", 90)
-    triangle(x, y - 50, 50, "red", 90)
+    triangle(x + 50, y + 50, 50, "red", 180)
+    triangle(x, y, 50, "red", 180)
     triangle(x, y + 50, 50, "red", 90)
-rhombus(500, 400, 100, "red", 0)
+    triangle(x, y - 50, 50, "red", 120)
+
+
+rhombus(300, 200, 100, "red", 0)
+
+
+screen = Screen()
+screen.exitonclick()
 
 
 
