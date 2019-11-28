@@ -45,5 +45,9 @@ def rhombus(x, y, size, color, angle):
 
 rhombus(0, 0, 100, "red", 0)
 
+def house
+
 
 turtle.mainloop()
+
+
