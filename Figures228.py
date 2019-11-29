@@ -63,6 +63,7 @@ def fish(x, y, size, color, angle):
 
 fish(-10, -200, "red",0 , 0)
 
+
 # TODO: ArtemArkhipov1234
 pass
 
@@ -153,8 +154,7 @@ def Parallel(x, y, size, angle):
 
 Parallel(-300, 200, 50, 90)
 
-# TODO: romanbrenner
-pass
+
 
 def Helicopter(x, y):
     turtle.reset()
@@ -279,8 +279,6 @@ def Helicopter(x, y):
 
 Helicopter(-300, -200)
 
-# TODO: ArtemArkhipov1234
-pass
 
 
 from turtle import Turtle, Screen
@@ -326,6 +324,8 @@ house(500, -200, 100, "red", 0)
 turtle.penup()
 turtle.goto(0, 0)
 turtle.pendown()
+
+
 def rhombus(x, y, size, color, angle):
     square(x, y, 50, "blue", 0)
     triangle(x + 50, y + 50, 50, "red", 180)
@@ -336,12 +336,12 @@ def rhombus(x, y, size, color, angle):
 
 rhombus(300, 200, 100, "red", 0)
 
+turtle.mainloop()
 
 screen = Screen()
 screen.exitonclick()
 
-# TODO: romanbrenner
-pass
+
 
 
 
